@@ -43,3 +43,37 @@ body {
   color: #222;
   font-style: italic;
 }
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+.section.worries {
+  background-color: #f9f8f4;
+  padding: 60px 20px;
+}
+.section.worries h2 {
+  text-align: center;
+  color: #d74e41;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.worry-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+.worry-list .balloon {
+  background: url("images/balloon-bg.png") no-repeat left top / cover, #ffffffcc;
+  border: 2px solid #f2c6c2;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  position: relative;
+  background-blend-mode: lighten;
+}
