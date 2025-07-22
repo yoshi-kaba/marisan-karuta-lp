@@ -1,0 +1,82 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+.section.product {
+  background: #f3f8ff;
+  padding: 60px 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.headline {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #0077c2;
+}
+.product-details {
+  margin-bottom: 40px;
+}
+.product-details p {
+  font-size: 1em;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.product-details .price {
+  font-size: 1.2em;
+  color: #e07a5f;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.product-details .author {
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 10px;
+}
+.product-image {
+  max-width: 300px;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.feature-summary {
+  font-size: 1em;
+  line-height: 1.8;
+}
+@media screen and (max-width: 768px) {
+  .product-image {
+    width: 90%;
+  }
+}
+
+.full-image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+.furusato-links {
+  text-align: center;
+  margin-top: 20px;
+}
+.purchase-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #f2766c;
+  color: white !important;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+.purchase-button:hover {
+  background: #e55d54;
+}
