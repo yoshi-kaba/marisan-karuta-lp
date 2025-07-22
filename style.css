@@ -1,1 +1,27 @@
-body { font-family: sans-serif; background: #f9f8f4; color: #333; text-align: center; padding: 50px; }
+
+body.custom-lp-wrapper {
+  background: #fff;
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.custom-lp-wrapper h1, .custom-lp-wrapper h2 {
+  color: #d85c57;
+  text-align: center;
+}
+.custom-lp-wrapper section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #eee;
+}
+.btn-main {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background: #f2766c;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
