@@ -1,0 +1,21 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f8f4;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+.custom-lp-wrapper {
+  padding: 40px;
+  text-align: center;
+}
+.purchase-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #f2766c;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
